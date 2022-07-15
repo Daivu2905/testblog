@@ -1,0 +1,23 @@
+.profile {
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+td {
+    padding: 20px;
+}
+
+.information {
+    background-color: white;
+}
+
+table {
+    height: 500px;
+    width: 700px;
+}
+
+.btn {
+    margin: -23px;
+}
