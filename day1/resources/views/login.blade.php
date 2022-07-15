@@ -5,19 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xtra Blog</title>
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="{{asset('start/fontawesome/css/all.min.css')}}">
     <!-- https://fontawesome.com/ -->
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <!-- https://fonts.google.com/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/templatemo-xtra-blog.css" rel="stylesheet">
+    <link href="{{asset('start/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('start/css/templatemo-xtra-blog.css')}}" rel="stylesheet">
+    <!--
+    Latest compiled and minified CSS
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!--
+TemplateMo 553 Xtra Blog
+
+https://templatemo.com/tm-553-xtra-blog
+
+-->
 </head>
 
 <body>
     <h2>Weekly Coding Challenge #1: Sign in/up Form</h2>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
-            <form action="#">
+            <form action="/login">
                 <h1>Create Account</h1>
                 <div class="social-container">
                     <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -71,7 +83,11 @@
     </div>
 
 
-    <script src="js/login.js"></script>
+     <script src="{{asset('start/js/jquery.min.js')}}"></script>
+    <script src="{{asset('start/js/templatemo-script.js')}}"></script>
+    <script src="{{asset('start/js/login.js')}}"></script>
+
+</body>
 </body>
 
 </html>

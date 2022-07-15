@@ -32,28 +32,27 @@ https://templatemo.com/tm-553-xtra-blog
                 <i class="fas fa-bars"></i>
             </button>
             <div class="tm-site-header">
-                <h1 class="text-center">Xtra Blog</h1> 
+                <h1 class="text-center">Xtra Blog</h1>
+
             </div>
-            <nav class="tm-nav" id="tm-nav">
-            <ul>
-                    <li class = "tm-nav-item ">
-                        <a href="login.blade.php" class="tm-nav-link">Đăng nhập</a>
-                    </li>
-                </ul>
-            </nav>
             <nav class="tm-nav" id="tm-nav">
                 <ul>
                     <li class="tm-nav-item active">
-                        <a href="welcome.blade.php" class="tm-nav-link">
+                        <a href="/" class="tm-nav-link">
                             <i class="fas fa-home"></i> Blog Home
                         </a>
                     </li>
                     <li class="tm-nav-item">
-                        <a href="post.blade.php" class="tm-nav-link">
+                        <a href="/post" class="tm-nav-link">
                             <i class="fas fa-pen"></i> Single Post
                         </a>
                     </li>
-                    
+                    <li class="tm-nav-item">
+                        <a href="/login" class="tm-nav-link"></a>
+                            Đăng nhập
+                        </a>
+                    </li>
+
                 </ul>
             </nav>
             <div class="tm-mb-65">

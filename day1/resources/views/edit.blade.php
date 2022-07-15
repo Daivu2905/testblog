@@ -53,60 +53,29 @@ https://templatemo.com/tm-553-xtra-blog
                         </a>
                     </li>
                     <li class="tm-nav-item">
-                        <a href="login.html" class="tm-nav-link">
+                        <a href="edit.html" class="tm-nav-link">
+                            <i class="fas fa-edit"></i> Edit
                         </a>
                     </li>
+
 
                 </ul>
             </nav>
         </div>
     </div>
-    <div class="information">
-        <table>
-            <tr>
-                <td><b>Họ Tên :</b></td>
-                <td>HOANG KHANH LINH</td>
-                <td><button type="button" class="btn btn-primary ">EDIT</button></td>
-                <td><button type="button" class="btn btn-danger">DELETE</button></td>
-            </tr>
-            <tr>
-                <td><b>Số điện thoại :</b></td>
-                <td>0965249555</td>
-                <td><button type="button" class="btn btn-primary ">EDIT</button></td>
-                <td><button type="button" class="btn btn-danger">DELETE</button></td>
-            </tr>
-            <tr>
-                <td><b>Email :</b></td>
-                <td>lili2222@gmail.com</td>
-                <td><button type="button" class="btn btn-primary ">EDIT</button></td>
-                <td><button type="button" class="btn btn-danger">DELETE</button></td>
-            </tr>
-            <tr>
-                <td><b>Birthday :</b></td>
-                <td>22/3/1992</td>
-                <td><button type="button" class="btn btn-primary ">EDIT</button></td>
-                <td><button type="button" class="btn btn-danger">DELETE</button></td>
-            </tr>
-            <tr>
-                <td><b>Address :</b></td>
-                <td>saddddddadasad</td>
-                <td><button type="button" class="btn btn-primary ">EDIT</button></td>
-                <td><button type="button" class="btn btn-danger">DELETE</button></td>
-            </tr>
-            <tr>
-                <td><b>Work :</b></td>
-                <td>IT</td>
-                <td><button type="button" class="btn btn-primary ">EDIT</button></td>
-                <td><button type="button" class="btn btn-danger">DELETE</button></td>
-            </tr>
-            <tr>
-                <td> <b>Description:</b></td>
-                <td>sadsadsadasdsadsafasfsaf</td>
-                <td><button type="button" class="btn btn-primary ">EDIT</button></td>
-                <td><button type="button" class="btn btn-danger">DELETE</button></td>
-            </tr>
-        </table>
+
+    <div class=" edit">
+        <input type="text" placeholder="Hoten" />
+        <input type="Sdt" placeholder="Sdt" />
+        <input type="password" placeholder="Password" />
+        <input type="Birthday" placeholder="Birthday" />
+        <input type="Address" placeholder="Address" />
+        <input type="File" placeholder="File" />
+        <input type="Work" placeholder="Work" />
+        <input type="Description" placeholder="Description" />
+        <button type="button" class="btn btn-warning Save">Save</button>
     </div>
+
 </body>
 
 </html>

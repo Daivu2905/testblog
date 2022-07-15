@@ -42,15 +42,8 @@ https://templatemo.com/tm-553-xtra-blog
                             <i class="fas fa-pen"></i> Single Post
                         </a>
                     </li>
-                    <li class="tm-nav-item">
-                        <a href="about.html" class="tm-nav-link">
-                            <i class="fas fa-users"></i> About Xtra
-                        </a>
-                    </li>
-                    <li class="tm-nav-item">
-                        <a href="contact.html" class="tm-nav-link">
-                            <i class="far fa-comments"></i> Contact Us
-                        </a>
+                    <li class = "tm-nav-item ">
+                        <a href="login.blade.php" class="tm-nav-link">Đăng nhập</a>
                     </li>
                 </ul>
             </nav>
